@@ -1,0 +1,384 @@
+body {
+  background: #7bed9f;
+  /* background: linear-gradient(to right, rgb(88, 203, 17), rgb(198, 252, 37)); */
+  font-family: "Inter";
+}
+
+.form-card {
+  height: 600px;
+  width: 400px;
+  background-color: aqua;
+  margin-left: 500px;
+  background-color: black;
+  border-radius: 1rem;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.login-title {
+  padding-top: 65px;
+  line-height: 15px;
+
+}
+
+.login-detail {
+  color: gray;
+
+}
+
+.login-name {
+  height: 33px;
+  width: 72%;
+  line-height: 10px;
+  background: black;
+  color: white;
+  border-color: white;
+  margin-top: 35px;
+  font-family: "Inter";
+
+}
+
+.login-pass {
+  height: 33px;
+  width: 72%;
+  margin-top: 23px;
+  background: black;
+  color: white;
+  border-color: white;
+  font-family: "Inter";
+
+}
+
+.submit-button {
+  margin-top: 80px;
+  height: 40px;
+  width: 35%;
+  background: black;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+  font-family: "Inter";
+
+}
+
+
+.login-account {
+  margin-top: 120px;
+  font-size: 18px;
+
+}
+
+.signup-btn {
+  color: gray;
+  text-decoration: none;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  padding-left: 9px;
+  font-size: 17px;
+
+}
+
+
+.signup-del {
+  padding-top: 180px;
+  font-size: 18px;
+
+}
+
+
+.signup-log {
+  background: black;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  color: gray;
+  font-weight: 700;
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+.signup-btnn {
+  margin-top: 30px;
+  height: 40px;
+  width: 35%;
+  background: black;
+  color: white;
+  border-color: white;
+  display: block;
+  margin-left: 130px;
+}
+
+
+.login-del {
+  display: block;
+  height: 40px;
+  width: 35%;
+  background: black;
+  color: white;
+  border-color: white;
+  margin-top: 25px;
+  margin-left: 130px;
+  cursor: pointer;
+}
+
+
+.forget-btn {
+  color: gray;
+  border: none;
+  background: black;
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  top: 357px;
+  right: 480px;
+  font-size: 14px;
+  font-family: "Inter";
+
+
+}
+
+.reset-pass {
+  height: 33px;
+  width: 72%;
+  line-height: 10px;
+  background: black;
+  color: white;
+  border-color: white;
+  margin-top: 35px;
+
+}
+
+
+.confirm-mail {
+  margin-top: 30px;
+  height: 40px;
+  width: 35%;
+  background: black;
+  color: white;
+  border-color: white;
+  display: block;
+  margin-left: 130px;
+  font-family: "Inter";
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 250px;
+  font-size: 50px;
+}
+
+
+.home-login {
+  text-align: center;
+  margin-top: 250px;
+  font-size: 50px;
+}
+
+
+.logout-btn {
+  display: block;
+  height: 40px;
+  width: 10%;
+  background: black;
+  color: white;
+  border-color: white;
+  margin-top: 10px;
+  font-family: "Inter";
+  margin-left: 595px;
+  cursor: pointer;
+}
+
+/* 
+ todo app css   */
+
+.main-div {
+  width: 100%;
+  height: 103vh;
+  background: #7bed9f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.center-div {
+  width: 30%;
+  height: 600px;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+/* Heading */
+.todo-name {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 50px;
+  margin-bottom: 30px;
+  min-width: 64px;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+
+/* Input */
+.todo-input {
+  margin-left: 30px;
+  text-align: center;
+  height: 30px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+  margin-right: 20px;
+}
+
+/* New button */
+.newBtn {
+  width: 50px;
+  height: 55px;
+  background-color: #16a085 !important;
+  color: white !important;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 50% !important;
+}
+
+.newBtn:hover {
+  color: #16a085 !important;
+  background: white !important;
+}
+
+.MuiSvgIcon-root {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+
+ol {
+  margin-top: 20px;
+}
+
+ol li {
+  padding-left: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 550;
+  min-height: 47px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+  list-style: none;
+
+}
+
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style .deleteIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+  padding: 5px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+
+.todo_style .deleteIcon:hover {
+  background-color: transparent;
+  color: crimson;
+  box-shadow: 5px 5px 15px -5px rgba(255, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .center_div {
+    width: 55%;
+  }
+
+  .todo_style .fa-times {
+    margin: 0 15px 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  button {
+    margin-left: 5px;
+    min-height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 30px;
+  }
+}
+
+.todo_style .editIcon {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  padding: 2.75px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+.editIcon:hover {
+  background-color: transparent;
+  color: crimson;
+  box-shadow: 5px 5px 15px -5px rgba(255, 0, 0, 0.5);
+}
+
+/* .update-btn {
+  top: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #16a085 !important;
+  color: white !important;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 30% !important;
+  font-family: "Inter";
+
+}
+
+
+.update-btn:hover {
+  background-color: transparent;
+  color: crimson;
+  box-shadow: 5px 5px 15px -5px rgba(255, 0, 0, 0.5);
+} */
+@media (max-width: 768px) {
+  .form-card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-card {
+    width: 90%;
+  }
+}
